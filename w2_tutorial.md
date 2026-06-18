@@ -4,7 +4,7 @@
 
 A movie theater has the following admission policy:
 
-- Users are 13 years old or older, OR
+- Users are 18 years old or older, OR
 - Users are accompanied by an adult.
 - Users must have a valid ticket.
 
