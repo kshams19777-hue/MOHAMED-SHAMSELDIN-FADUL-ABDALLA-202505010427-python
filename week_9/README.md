@@ -22,3 +22,59 @@ Make sure you have Python 3 installed on your system.
 2. Navigate to the `week_9` directory:
    ```bash
    cd week_9
+
+```
+
+3. Run the main script:
+```bash
+python main.py
+
+```
+
+
+4. Enter the required details when prompted:
+* **Student Name**
+* **Student ID**
+* **Issue Description**
+* **Location**
+* **Priority Level** (`High`, `Medium`, or `Low`)
+
+
+
+---
+
+## 4. Priority Assignment Rules
+
+| Priority Level | Assigned Technician |
+| --- | --- |
+| **High** | Ahmad |
+| **Medium** | Siti |
+| **Low** | Ali |
+
+---
+
+## 5. Application Demo
+
+Below is a screen recording demonstrating the execution of the application:
+
+![Application Demo](tutorial.gif)
+
+### Expected Console Output Sample:
+
+```text
+=== IT Helpdesk Ticket ===
+Student Name : mohe
+Student ID   : 12345678910
+Issue        : blue screen pc
+Location     : lab 101 level 1
+Priority (High/Medium/Low): High
+
+========== HELPDESK TICKET ==========
+Student Name : mohe
+Student ID   : 12345678910
+Issue        : blue screen pc
+Location     : lab 101 level 1
+Priority     : High
+Technician   : Ahmad
+Status       : Pending
+=======================================
